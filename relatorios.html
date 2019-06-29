@@ -49,70 +49,54 @@
         <div class="page-header">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                    <h1 class="display-4">Pesquisa e Reserva</h1>
-                    <p class="lead">Aqui você pode pesquisar pelo nosso acervo e também realizar reservar do livro que
-                        deseje</p>
+                    <h1 class="display-4">Relatórios</h1>
+                    <p class="lead">Aqui você pode verificar os relatórios</p>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Escolha sua pesquisa</button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item">Livro</a>
-                        <a class="dropdown-item">Usuário</a>
-                        <a class="dropdown-item">Autor</a>
-                    </div>
-                </div>
-                <input type="text" class="form-control" aria-label="Text input with dropdown button">
-            </div>
-            
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-10">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                        <div align="right">
-                            <input id="datepicker1" width="276" />
-                            <script>
-                                $('#datepicker1').datepicker({
-                                    uiLibrary: 'bootstrap4'
-                                });
-                            </script>
-                            <button type="button" class="btn btn-outline-success">Reservar</button>
-                            <button type="button" class="btn btn-outline-warning">Cancelar</button>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                        <div align="right">
-                                <input id="datepicker2" width="276" />
-                                <script>
-                                    $('#datepicker2').datepicker({
-                                        uiLibrary: 'bootstrap4'
-                                    });
-                                </script>
-                                <button type="button" class="btn btn-outline-success">Reservar</button>
-                                <button type="button" class="btn btn-outline-warning">Cancelar</button>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-4">
-
-                </div>
-            </div>
+            <h2>Multas</h2>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Usuário</th>
+                        <th scope="col">Livro</th>
+                        <th scope="col">Dias em atraso</th>
+                        <th scope="col">Multa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Harry Potter e a Pedra Filosofal</td>
+                        <td>3 dias</td>
+                        <td>R$3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td >Percy Jackson e o Ladrão de Raios</td>
+                        <td>2 dias</td>
+                        <td>R$2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>Senhor dos Anéis</td>
+                        <td>10 dias</td>
+                        <td>R$10</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Larry</td>
+                        <td>Deuses Americanos</td>
+                        <td>5 dias</td>
+                        <td>R$5</td>
+                    </tr>
+                </tbody>
+            </table>
 
         </div>
 
